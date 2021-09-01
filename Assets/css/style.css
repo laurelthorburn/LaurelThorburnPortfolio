@@ -48,8 +48,6 @@ header h1 {
     text-transform: uppercase;
 }
 
-/* Begin main section */
-
 /* Hero Image */
 .hero {
     height: 20rem;
@@ -70,33 +68,50 @@ header h1 {
 }
 
 /* Begin About Me Section */
-
+.main-box{
+    margin-left: 2.5rem;
+}
 h2 {
     display: inline-block;
     font-size: 52px;
-    float: left;
     flex-wrap: wrap;
     font-family: 'Amatic SC', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-right: cadetblue solid 2px;
-    margin: 0 5rem;
-    width: 5rem
 }
 
 .about-me > p {
     display: inline;
     padding-left: -1em;
     text-indent: -1em; 
+    align-items: flex-end;
 }
 
 /* Begin Work Section */
+.work > h2 {
+    justify-content: left;
+}
+
 #work-div {
     display: flex;
     flex-wrap: wrap;
-
+    flex-direction: column;
 }
+
+.img-box {
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+
 /* Begin Contact Me */
 .contact-me {
 background-color: rgba(47, 79, 79, 0.801);
 padding: 20px;
 color: #ffffff;
+width: 100%;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
 }
