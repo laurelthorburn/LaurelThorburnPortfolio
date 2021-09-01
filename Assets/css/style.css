@@ -89,10 +89,10 @@ h2 {
 }
 
 /* Begin Work Section */
-.work > p {
-    display: inline;
-    padding-left: -1em;
-    text-indent: -1em; 
+#work-div {
+    display: flex;
+    flex-wrap: wrap;
+
 }
 /* Begin Contact Me */
 .contact-me {
