@@ -79,6 +79,7 @@ h2 {
     font-family: 'Amatic SC', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-right: cadetblue solid 2px;
     margin: 0 5rem;
+    width: 5rem
 }
 
 .about-me > p {
@@ -88,7 +89,11 @@ h2 {
 }
 
 /* Begin Work Section */
-
+.work > p {
+    display: inline;
+    padding-left: -1em;
+    text-indent: -1em; 
+}
 /* Begin Contact Me */
 .contact-me {
 background-color: rgba(47, 79, 79, 0.801);
