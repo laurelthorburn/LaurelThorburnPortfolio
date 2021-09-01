@@ -68,3 +68,30 @@ header h1 {
     font-style: italic;
     color: rgba(47, 79, 79, 0.801);
 }
+
+/* Begin About Me Section */
+
+h2 {
+    display: inline-block;
+    font-size: 52px;
+    float: left;
+    flex-wrap: wrap;
+    font-family: 'Amatic SC', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-right: cadetblue solid 2px;
+    margin: 0 5rem;
+}
+
+.about-me > p {
+    display: inline;
+    padding-left: -1em;
+    text-indent: -1em; 
+}
+
+/* Begin Work Section */
+
+/* Begin Contact Me */
+.contact-me {
+background-color: rgba(47, 79, 79, 0.801);
+padding: 20px;
+color: #ffffff;
+}
