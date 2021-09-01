@@ -102,6 +102,15 @@ h2 {
     flex-wrap: wrap;
 }
 
+/* .img-properties:nth-child(1) {
+    width: 100rem;
+    height: auto;
+}
+
+.img-properties:nth-child(n+1) {
+    width: 25rem;
+    height: auto;
+} */
 
 /* Begin Contact Me */
 .contact-me {
@@ -109,6 +118,13 @@ background-color: rgba(47, 79, 79, 0.801);
 padding: 20px;
 color: #ffffff;
 width: 100%;
+}
+
+.contact-me > a {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 25px;
+    text-transform: uppercase;
 }
 
 footer {
