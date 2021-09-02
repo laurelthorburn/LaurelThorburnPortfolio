@@ -72,12 +72,17 @@ header h1 {
     margin-left: 2.5rem;
 }
 h2 {
-    display: inline-block;
     font-size: 52px;
-    flex-wrap: wrap;
     font-family: 'Amatic SC', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border-right: cadetblue solid 2px;
 }
+
+/* .align-left {
+    float: left;
+}
+
+.align-right {
+    float: right;
+} */
 
 .about-me > p {
     display: inline;
@@ -87,10 +92,6 @@ h2 {
 }
 
 /* Begin Work Section */
-.left-side {
-    justify-content: left;
-    padding-left: 0;
-}
 
 #work-parent {
     display: flex;
@@ -101,7 +102,7 @@ h2 {
 .img-box1{
     width: 100%;
     height: auto;
-    
+    text-align: center;
 }
 
 #work-parent .img-box {
@@ -119,18 +120,19 @@ h2 {
 background-color: rgba(47, 79, 79, 0.801);
 padding: 20px;
 color: #ffffff;
-width: 100%;
 }
 
 
 .contact-me > .links ul li {
     display: inline-flex;
     flex-direction: row;
-    justify-content: center; 
-    margin-left: 0;
 }
 
 footer {
     margin: 0;
     padding: 0;
 }
+
+
+
+/* use for border border-left: cadetblue solid 2px; */
