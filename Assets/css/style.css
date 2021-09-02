@@ -87,31 +87,32 @@ h2 {
 }
 
 /* Begin Work Section */
-.work > h2 {
+.left-side {
     justify-content: left;
+    padding-left: 0;
 }
 
 #work-parent {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
-/* .img-box1{
+
+.img-box1{
     width: 100%;
     height: auto;
-} */
-#work-parent img {
+    
+}
+
+#work-parent .img-box {
     display: inline;
     flex-wrap: wrap;
-    flex: 1 0 100%;
-}
-/* .img-properties1 {
-    max-width: 100%;
-    height: auto;
-}
-.img-properties {
     max-width: 50%;
     height: auto;
-} */
+    padding: 2.5rem;
+    flex-basis: 40%;
+}
+
 
 /* Begin Contact Me */
 .contact-me {
