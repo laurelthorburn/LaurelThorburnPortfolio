@@ -94,6 +94,7 @@ h2 {
 }
 
 /* Begin Work Section */
+
 div .work-left {
     flex: 0 0 85%;
 }
@@ -112,6 +113,7 @@ div .work-left {
     width: min-content;
     height: auto;
     background-color: lawngreen;
+    align-content: center;
 }
 
 .work-img {
@@ -136,6 +138,15 @@ div .work-left {
     border: solid 3px mistyrose ;
 }
 
+.work-left {
+    background-color: lightcoral;
+    border-left: cadetblue solid 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0;
+}
+
 .img-box1:hover {
     opacity: 1;
     cursor: pointer;
@@ -145,7 +156,6 @@ div .work-left {
     opacity: 1;
     cursor: pointer;
 }
-
 
 /* Begin Contact Me */
 .contact-me {
