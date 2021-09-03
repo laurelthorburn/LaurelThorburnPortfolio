@@ -162,6 +162,60 @@ div .work-left {
     text-transform: uppercase;
 }
 
+/* Image Subtitles */
+.sub-one {
+    position: relative;
+}
+
+.sub-two {
+    position: relative;
+}
+
+.sub-three {
+    position: relative;
+}
+
+.sub-four {
+    position: relative;
+}
+
+.sub-one > #img-title1 {
+    position: absolute;
+    bottom: 2rem;
+    background-color: mistyrose;
+    color: rgba(47, 79, 79, 0.801);
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+.sub-two > #img-title2 {
+    position: absolute;
+    bottom: 2rem;
+    background-color: mistyrose;
+    color: rgba(47, 79, 79, 0.801);
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+.sub-three > #img-title3 {
+    position: absolute;
+    bottom: 2rem;
+    background-color: mistyrose;
+    color: rgba(47, 79, 79, 0.801);
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+.sub-four > #img-title4 {
+    position: absolute;
+    bottom: 2rem;
+    background-color: mistyrose;
+    color: rgba(47, 79, 79, 0.801);
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+
 /* Begin Contact Me */
 .contact-me {
     background-color: rgba(47, 79, 79, 0.801);
