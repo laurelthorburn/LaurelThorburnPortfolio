@@ -350,3 +350,17 @@ div .work-left {
 }
 
 }
+
+@media screen and (max-width: 390px)  {   
+    .links ul li,
+    .links1 ul li {
+        display: block;
+    }
+
+    header nav ul li,
+    .links1 {
+        width: 100%;
+    }
+
+    
+}
