@@ -1,7 +1,7 @@
 # Laurel Thorburn's Portfolio
 
 # Description
-The purpose of this project was to create a protfolio in order to showcase my work for future employers. This project allows me to demonstrate my css skills both on both design and coding. Throughout this project, I was able to continue to grow my CSS skills, especially in regards to flexbox and troubleshooting broken code.  This project also helped expand my knowledge and comfort of reading code and understanding the code's outcome.
+The purpose of this project was to create a portfolio in order to showcase my work for future employers. This project allows me to demonstrate my CSS skills in both design and coding. Throughout this project, I was able to continue to grow my CSS skills, especially in terms of flexbox and troubleshooting broken code.  This project also helped expand my knowledge and comfort of reading code and understanding the code's outcome.
 
 ## User Story
 
