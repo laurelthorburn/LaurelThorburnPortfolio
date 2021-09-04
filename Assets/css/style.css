@@ -64,6 +64,15 @@ header h1 {
     padding: 1rem;
 }
 
+#headshot {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    top: 1rem;
+    left: 2.5rem;
+}
+
 /* Begin About Me Section */
 
 h2 {
