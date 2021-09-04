@@ -35,3 +35,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ![Screenshot of Laurel Thorburn's Portfolio](Assets/images/LTScreenshot.png)
 
 # Links
+Github: https://github.com/laurelthorburn/LaurelThorburnPortfolio
+
+Deployed Site: https://laurelthorburn.github.io/LaurelThorburnPortfolio/
