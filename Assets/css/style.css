@@ -266,11 +266,11 @@ div .work-left {
     }
 
     header nav ul li {
-        margin: 10px 0;
         width: 20%;
-        padding-left: 0;
+        padding: 0;
         text-align: center;
         font-size: 12px;
+        margin: 0;
     }
 
     .main-img-resize {
@@ -320,4 +320,10 @@ div .work-left {
     .links1 {
         font-size: 12px;
     }
+
+    .links ul li {
+        margin-left: 0;
+        text-transform: uppercase;
+    }
+    
 }
