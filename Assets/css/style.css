@@ -1,4 +1,11 @@
 
+:root {
+    --light-color: mistyrose;
+    --dark-color: rgba(47, 79, 79, 0.801);
+    --flex-basis-left: 0 0 15%;
+    --flex-basis-right: 0 0 85%;
+}
+
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -8,12 +15,12 @@ body {
 
 a {
     text-decoration: underline;
-    color: mistyrose;
+    color: var(--light-color);
 }
 
 /* Begin Header */
 header {
-    background-color: rgba(47, 79, 79, 0.801);
+    background-color: var( --dark-color);
     padding: 20px;
     color: #ffffff;
     width:100%;
@@ -23,7 +30,7 @@ header {
 header h1 {
     display: inline-block;
     font-size: 52px;
-    background-color: mistyrose;
+    background-color: var(--light-color);
     color: rgb(47, 79, 79);
 }
 
@@ -60,9 +67,9 @@ header h1 {
     position: absolute;
     right: 1rem;
     bottom: .5rem;
-    background-color: mistyrose;
+    background-color: var(--light-color);
     font-style: italic;
-    color: rgba(47, 79, 79, 0.801);
+    color: var( --dark-color);
     padding: 1rem;
 }
 
@@ -86,14 +93,14 @@ h2 {
  .about-me {
     display: flex;
     flex-direction: row;
-    flex: 0 0 15%;
+    flex: var(--flex-basis-left);
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
  }
 
  .align-left {
-    flex: 0 0 15%;
+    flex: var(--flex-basis-left);
     text-align: right;
     align-items: center;
  }
@@ -103,7 +110,7 @@ h2 {
 } 
 
 .about-me > p {
-    flex: 0 0 85%;
+    flex: var(--flex-basis-right);
     padding: 0 2rem;
 }
 
@@ -114,7 +121,7 @@ h2 {
 /* Begin Work Section */
 
 div .work-left {
-    flex: 0 0 85%;
+    flex: var(--flex-basis-right);
 }
 #work-parent {
     display: flex;
@@ -127,7 +134,7 @@ div .work-left {
     position: relative;
     display: flex;
     align-self: center;
-    border: solid 3px mistyrose;
+    border: solid 3px var(--light-color);
     width: min-content;
     height: auto;
 }
@@ -136,9 +143,9 @@ div .work-left {
     position: absolute;
     left: 0;
     top: 0;
-    background-color: mistyrose;
+    background-color: var(--light-color);
     font-style: italic;
-    color: rgba(47, 79, 79, 0.801);
+    color: var( --dark-color);
 }
 
 #work-parent .img-box {
@@ -149,7 +156,7 @@ div .work-left {
     opacity: .5;
     margin: .5rem;
     padding: 0;
-    border: solid 3px mistyrose;
+    border: solid 3px var(--light-color);
 }
 
 .work-left {
@@ -173,8 +180,8 @@ div .work-left {
 .img-title {
     position: absolute;
     bottom: 2rem;
-    background-color: mistyrose;
-    color: rgba(47, 79, 79, 0.801);
+    background-color: var(--light-color);
+    color: var( --dark-color);
     padding: 1rem;
     text-transform: uppercase;
 }
@@ -200,8 +207,8 @@ div .work-left {
 .sub-one > #img-title1 {
     position: absolute;
     bottom: 2rem;
-    background-color: mistyrose;
-    color: rgba(47, 79, 79, 0.801);
+    background-color: var(--light-color);
+    color: var( --dark-color);
     padding: 1rem;
     text-transform: uppercase;
 }
@@ -209,8 +216,8 @@ div .work-left {
 .sub-two > #img-title2 {
     position: absolute;
     bottom: 2rem;
-    background-color: mistyrose;
-    color: rgba(47, 79, 79, 0.801);
+    background-color: var(--light-color);
+    color: var( --dark-color);
     padding: 1rem;
     text-transform: uppercase;
 }
@@ -218,8 +225,8 @@ div .work-left {
 .sub-three > #img-title3 {
     position: absolute;
     bottom: 2rem;
-    background-color: mistyrose;
-    color: rgba(47, 79, 79, 0.801);
+    background-color: var(--light-color);
+    color: var( --dark-color);
     padding: 1rem;
     text-transform: uppercase;
 }
@@ -227,8 +234,8 @@ div .work-left {
 .sub-four > #img-title4 {
     position: absolute;
     bottom: 2rem;
-    background-color: mistyrose;
-    color: rgba(47, 79, 79, 0.801);
+    background-color: var(--light-color);
+    color: var( --dark-color);
     padding: 1rem;
     text-transform: uppercase;
 }
@@ -236,12 +243,12 @@ div .work-left {
 
 /* Begin Contact Me */
 .contact-me {
-    background-color: rgba(47, 79, 79, 0.801);
+    background-color: var( --dark-color);
     padding: 20px 0;
     color: #ffffff;
     display: flex;
     flex-direction: row;
-    flex: 0 0 15%;
+    flex: var(--flex-basis-left);
     flex-wrap: wrap;
     align-items: center;
  }
@@ -251,7 +258,7 @@ div .work-left {
    text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    flex: 0 0 85%;
+    flex: var(--flex-basis-right);
 }
 
 .links1 ul li {
